@@ -49,7 +49,6 @@ export const UseRef = () => {
       <h2>useRef usage</h2>
 
       <input
-        autoFocus
         type="text"
         value={randomInput}
         placeholder="Random Input"
