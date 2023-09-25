@@ -1,5 +1,6 @@
 import './App.css'
 import { UseCallback } from './components/UseCallback'
+import { UseMemo } from './components/UseMemo'
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <div>
         <h1>React Hooks Usage</h1>
         <UseCallback />
+
+        <hr />
+        <UseMemo />
       </div>
     </>
   )
