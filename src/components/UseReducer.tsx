@@ -18,6 +18,7 @@ export const UseReducer = () => {
       <button onClick={() => dispatch({ type: 'decrement', payload: 5 })}>
         Decrement
       </button>
+      <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
     </>
   )
 }
